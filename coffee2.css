@@ -1,0 +1,84 @@
+body{
+    background-image: url("/images.jfif");
+background-size: cover;
+background-repeat: no-repeat;
+  
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: whitesmoke;
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+   
+}
+nav h3{
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+nav h3 span{
+    color:brown;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-top:20px ;
+}
+nav ul li{
+    margin-right: 50px;
+    font-weight: bold;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    transition:.4s ease-in;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+nav ul li.active a{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+   
+}
+.coffee{
+    font-size:45px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;    
+    width: 500px;
+    /* margin-left: 60vh; */
+    margin-top: 190px;
+}
+.hero{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;    
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    margin-left: 95vh;
+    margin-top: 60px;
+    background-color: orange;
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
